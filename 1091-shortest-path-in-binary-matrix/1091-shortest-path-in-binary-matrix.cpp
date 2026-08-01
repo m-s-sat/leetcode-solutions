@@ -26,7 +26,7 @@ public:
                 if(nRow>=0 && nCol>=0 && nRow<n && nCol<n && grid[nRow][nCol]==0){
                     int newDistance = distance+1;
                     if(dist[nRow][nCol]!=1e9 && newDistance<dist[nRow][nCol]){
-                        st.erase({dist[nRow][nCol], {nRow,nCol}});
+                        st.erase({dist[row][col], {row,col}});
                     }
                     if(newDistance<dist[nRow][nCol]){
                         dist[nRow][nCol] = newDistance;
