@@ -4,7 +4,7 @@ public:
         int left = 0;
         int right = 0;
         int n = s.length();
-        vector<int> freq(26,0);
+        int freq[26] = {0};
         int ans = 0;
         while(right<n){
             int idx = s[right] - 'a';
