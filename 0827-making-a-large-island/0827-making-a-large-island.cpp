@@ -55,15 +55,14 @@ public:
         }
         int cnt = 0;
 
-        for(int row = 0; row < n; row++){
-            for(int col = 0; col < n; col++){
+        for(int row=0; row<n; row++){
+            for(int col = 0; col<n; col++){
                 if(grid[row][col] == 0){
                     int total = 1;
                     set<int> components;
-                    for(int i = 0; i < 4; i++){
+                    for(int i=0; i<4; i++){
                         int nrow = row + drow[i];
                         int ncol = col + dcol[i];
-
                         if(nrow>=0 && ncol>=0 && nrow<n && ncol<n && grid[nrow][ncol] == 1){
                             int num2 = n * nrow + ncol;
                             components.insert(ds.findUlParent(num2));
