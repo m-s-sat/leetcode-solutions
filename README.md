@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/m-s-sat/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/m-s-sat/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/m-s-sat/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/m-s-sat/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/m-s-sat/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/m-s-sat/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/m-s-sat/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/m-s-sat/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/m-s-sat/leetcode-solutions/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/m-s-sat/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/m-s-sat/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
@@ -121,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/m-s-sat/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/m-s-sat/leetcode-solutions/tree/master/0127-word-ladder) |
+| [0721-accounts-merge](https://github.com/m-s-sat/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/m-s-sat/leetcode-solutions/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -129,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/m-s-sat/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Math
 |  |
@@ -144,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/m-s-sat/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0130-surrounded-regions](https://github.com/m-s-sat/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/m-s-sat/leetcode-solutions/tree/master/0542-01-matrix) |
+| [0721-accounts-merge](https://github.com/m-s-sat/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [1020-number-of-enclaves](https://github.com/m-s-sat/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/m-s-sat/leetcode-solutions/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/m-s-sat/leetcode-solutions/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -168,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/m-s-sat/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/m-s-sat/leetcode-solutions/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/m-s-sat/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [1020-number-of-enclaves](https://github.com/m-s-sat/leetcode-solutions/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/m-s-sat/leetcode-solutions/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/m-s-sat/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
@@ -191,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/m-s-sat/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0127-word-ladder](https://github.com/m-s-sat/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0721-accounts-merge](https://github.com/m-s-sat/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/m-s-sat/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/m-s-sat/leetcode-solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Design
