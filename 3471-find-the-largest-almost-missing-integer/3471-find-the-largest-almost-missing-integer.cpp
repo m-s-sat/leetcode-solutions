@@ -2,22 +2,18 @@ class Solution {
 public:
     int largestInteger(vector<int>& nums, int k) {
         int n = nums.size();
-        if(n<k) return -1;
-        int left = 0, right = k-1;
-        unordered_map<int,int> mp;
-        while(right<n){
-            set<int> st;
-            for(int i=left;i<=right;i++){
-                if(st.contains(nums[i])) continue;
-                st.insert(nums[i]);
-                mp[nums[i]]++;
-            }
-            left++, right++;
-        }
+        unordered_map<int,int> cnt;
+        for (int x:nums) cnt[x]++;
+        if (k==n) return *max_element(nums.begin(), nums.end());
         int ans = -1;
-        for(auto it: mp){
-            if(it.second==1) ans = max(ans,it.first);
+        if (k==1) {           
+            for (auto &p : cnt){
+                if (p.second==1) ans = max(ans, p.first);
+            }
+            return ans;
         }
+        if (cnt[nums[0]]==1) ans = max(ans, nums[0]);
+        if (cnt[nums[n-1]]==1) ans = max(ans, nums[n-1]);
         return ans;
     }
 };
