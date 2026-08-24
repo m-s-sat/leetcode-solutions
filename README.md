@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/m-s-sat/leetcode-solutions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1563-stone-game-v](https://github.com/m-s-sat/leetcode-solutions/tree/master/1563-stone-game-v) |
 | [1786-number-of-restricted-paths-from-first-to-last-node](https://github.com/m-s-sat/leetcode-solutions/tree/master/1786-number-of-restricted-paths-from-first-to-last-node) |
+| [1872-stone-game-viii](https://github.com/m-s-sat/leetcode-solutions/tree/master/1872-stone-game-viii) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/m-s-sat/leetcode-solutions/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Hash Table
 |  |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1563-stone-game-v](https://github.com/m-s-sat/leetcode-solutions/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/m-s-sat/leetcode-solutions/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/m-s-sat/leetcode-solutions/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/m-s-sat/leetcode-solutions/tree/master/2029-stone-game-ix) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/m-s-sat/leetcode-solutions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -174,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1514-path-with-maximum-probability](https://github.com/m-s-sat/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 | [1563-stone-game-v](https://github.com/m-s-sat/leetcode-solutions/tree/master/1563-stone-game-v) |
 | [1631-path-with-minimum-effort](https://github.com/m-s-sat/leetcode-solutions/tree/master/1631-path-with-minimum-effort) |
+| [1872-stone-game-viii](https://github.com/m-s-sat/leetcode-solutions/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/m-s-sat/leetcode-solutions/tree/master/2029-stone-game-ix) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/m-s-sat/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/m-s-sat/leetcode-solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -333,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Minimax
 |  |
 | ------- |
+| [1872-stone-game-viii](https://github.com/m-s-sat/leetcode-solutions/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/m-s-sat/leetcode-solutions/tree/master/2029-stone-game-ix) |
 ## Counting
 |  |
@@ -342,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1563-stone-game-v](https://github.com/m-s-sat/leetcode-solutions/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/m-s-sat/leetcode-solutions/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/m-s-sat/leetcode-solutions/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/m-s-sat/leetcode-solutions/tree/master/2029-stone-game-ix) |
 ## Nim Game
@@ -351,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Zero-Sum Game
 |  |
 | ------- |
+| [1872-stone-game-viii](https://github.com/m-s-sat/leetcode-solutions/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/m-s-sat/leetcode-solutions/tree/master/2029-stone-game-ix) |
 ## Bipartite Graph
 |  |
@@ -372,4 +378,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/m-s-sat/leetcode-solutions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
+## Prefix Sum
+|  |
+| ------- |
+| [1872-stone-game-viii](https://github.com/m-s-sat/leetcode-solutions/tree/master/1872-stone-game-viii) |
 <!---LeetCode Topics End-->
