@@ -1,37 +1,18 @@
 class Solution {
+private:
+    int f(vector<vector<int>>& grid, int row, int col, vector<vector<int>>& dp){
+        if(row==0 && col==0) return grid[0][0];
+        if(row<0||col<0) return 1e9;
+        if(dp[row][col]!=-1) return dp[row][col];
+        int up = grid[row][col]+f(grid,row-1,col,dp);
+        int left = grid[row][col]+f(grid,row,col-1,dp);
+        return dp[row][col] = min(up,left);
+    }
 public:
     int minPathSum(vector<vector<int>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
-        priority_queue<
-            pair<int, pair<int,int>>,
-            vector<pair<int,pair<int,int>>>,
-            greater<pair<int,pair<int,int>>>
-        > pq;
-        pq.push({grid[0][0],{0,0}});
-        vector<vector<int>> dist(n,vector<int>(m,1e9));
-        while(!pq.empty()){
-            int val = pq.top().first;
-            int row = pq.top().second.first;
-            int col = pq.top().second.second;
-            pq.pop();
-            int nrow = row+1;
-            int ncol = col+1;
-            if(nrow<n){
-                int newDist = val+grid[nrow][col];
-                if(newDist<dist[nrow][col]){
-                    pq.push({newDist,{nrow,col}});
-                    dist[nrow][col] = newDist;
-                }
-            }
-            if(ncol<m){
-                int newDist = val+grid[row][ncol];
-                if(newDist<dist[row][ncol]){
-                    pq.push({newDist,{row,ncol}});
-                    dist[row][ncol] = newDist;
-                }
-            }
-        }
-        return dist[n-1][m-1]==1e9?grid[0][0]:dist[n-1][m-1];
+        vector<vector<int>> dp(n,vector<int>(m,-1));
+        return f(grid,n-1,m-1,dp);
     }
 };
