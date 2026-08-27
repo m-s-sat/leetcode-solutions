@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/m-s-sat/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
+| [0062-unique-paths](https://github.com/m-s-sat/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/m-s-sat/leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0213-house-robber-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0542-01-matrix](https://github.com/m-s-sat/leetcode-solutions/tree/master/0542-01-matrix) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/m-s-sat/leetcode-solutions/tree/master/0062-unique-paths) |
 | [1563-stone-game-v](https://github.com/m-s-sat/leetcode-solutions/tree/master/1563-stone-game-v) |
 | [1872-stone-game-viii](https://github.com/m-s-sat/leetcode-solutions/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/m-s-sat/leetcode-solutions/tree/master/1927-sum-game) |
@@ -386,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/m-s-sat/leetcode-solutions/tree/master/0062-unique-paths) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/m-s-sat/leetcode-solutions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 ## Prefix Sum
 |  |
