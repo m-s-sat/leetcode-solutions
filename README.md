@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/m-s-sat/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0062-unique-paths](https://github.com/m-s-sat/leetcode-solutions/tree/master/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/m-s-sat/leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0213-house-robber-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0542-01-matrix](https://github.com/m-s-sat/leetcode-solutions/tree/master/0542-01-matrix) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/m-s-sat/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0130-surrounded-regions](https://github.com/m-s-sat/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0213-house-robber-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0213-house-robber-ii) |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0130-surrounded-regions](https://github.com/m-s-sat/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/m-s-sat/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0827-making-a-large-island](https://github.com/m-s-sat/leetcode-solutions/tree/master/0827-making-a-large-island) |
