@@ -38,10 +38,6 @@ public:
         int col = triangle[row-1].size();
         vector<vector<int>> dp(row, vector<int>(col,-1));
         int mini = 1e9;
-        for(int i=0;i<triangle[row-1].size();i++){
-            // mini = min(mini, f(triangle,row-1,i,dp));
-            mini = min(mini,f_tabulation(triangle));
-        }
-        return mini;
+        return f_tabulation(triangle);
     }
 };
