@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/m-s-sat/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0120-triangle](https://github.com/m-s-sat/leetcode-solutions/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/m-s-sat/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/m-s-sat/leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0213-house-robber-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/m-s-sat/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/m-s-sat/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/m-s-sat/leetcode-solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0120-triangle](https://github.com/m-s-sat/leetcode-solutions/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/m-s-sat/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/m-s-sat/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0213-house-robber-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/m-s-sat/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
