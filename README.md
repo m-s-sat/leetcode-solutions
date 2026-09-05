@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/m-s-sat/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/m-s-sat/leetcode-solutions/tree/master/0743-network-delay-time) |
+| [0765-couples-holding-hands](https://github.com/m-s-sat/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [0785-is-graph-bipartite](https://github.com/m-s-sat/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/m-s-sat/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/m-s-sat/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/m-s-sat/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/m-s-sat/leetcode-solutions/tree/master/0743-network-delay-time) |
+| [0765-couples-holding-hands](https://github.com/m-s-sat/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [0785-is-graph-bipartite](https://github.com/m-s-sat/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/m-s-sat/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/m-s-sat/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
@@ -248,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/m-s-sat/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/m-s-sat/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/m-s-sat/leetcode-solutions/tree/master/0721-accounts-merge) |
+| [0765-couples-holding-hands](https://github.com/m-s-sat/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [0785-is-graph-bipartite](https://github.com/m-s-sat/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0827-making-a-large-island](https://github.com/m-s-sat/leetcode-solutions/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/m-s-sat/leetcode-solutions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
@@ -300,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/m-s-sat/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/m-s-sat/leetcode-solutions/tree/master/0743-network-delay-time) |
+| [0765-couples-holding-hands](https://github.com/m-s-sat/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [0785-is-graph-bipartite](https://github.com/m-s-sat/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/m-s-sat/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/m-s-sat/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
@@ -391,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0765-couples-holding-hands](https://github.com/m-s-sat/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [1386-cinema-seat-allocation](https://github.com/m-s-sat/leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
 | [1927-sum-game](https://github.com/m-s-sat/leetcode-solutions/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/m-s-sat/leetcode-solutions/tree/master/2029-stone-game-ix) |
