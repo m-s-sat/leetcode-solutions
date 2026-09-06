@@ -25,7 +25,7 @@ private:
             for(int j=0;j<=amount;j++){
                 int not_take = dp[i-1][j];
                 int take = 1e9;
-                if(coins[i]<=j && j>=coins[i]) take = 1+dp[i][j-coins[i]];
+                if(coins[i]<=j) take = 1+dp[i][j-coins[i]];
                 dp[i][j]=min(take,not_take);
             }
         }
@@ -45,7 +45,7 @@ private:
             for(int j=0;j<=amount;j++){
                 int not_take = prev[j];
                 int take = 1e9;
-                if(coins[i]<=j && j>=coins[i]) take = 1+curr[j-coins[i]];
+                if(coins[i]<=j) take = 1+curr[j-coins[i]];
                 curr[j]=min(take,not_take);
             }
             prev=curr;
