@@ -31,6 +31,27 @@ private:
         }
         return dp[n-1][amount]>=1e9?-1:dp[n-1][amount];
     }
+    int space_optimisation(vector<int>& coins, int amount){
+        int n = coins.size();
+        vector<int> prev(amount+1,1e9), curr(amount+1, 1e9);
+        for(int j=0;j<=amount;j++){
+            prev[j]=0, curr[j]=0;
+        }
+        for(int i=0;i<=amount;i++){
+            if(i%coins[0]==0) prev[i] = i/coins[0];
+            else prev[i]=1e9;
+        }
+        for(int i=1;i<n;i++){
+            for(int j=0;j<=amount;j++){
+                int not_take = prev[j];
+                int take = 1e9;
+                if(coins[i]<=j && j>=coins[i]) take = 1+curr[j-coins[i]];
+                curr[j]=min(take,not_take);
+            }
+            prev=curr;
+        }
+        return prev[amount]>=1e9?-1:prev[amount];
+    }
 public:
     int coinChange(vector<int>& coins, int amount) {
         // int n = coins.size();
@@ -38,6 +59,7 @@ public:
         // int ans = f(coins,amount,n-1,dp);
         // if(ans>=1e9) return -1;
         // return ans;
-        return f_tabulation(coins,amount);
+        // return f_tabulation(coins,amount);
+        return space_optimisation(coins,amount);
     }
 };
