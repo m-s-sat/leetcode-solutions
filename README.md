@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/m-s-sat/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/m-s-sat/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0931-minimum-falling-path-sum](https://github.com/m-s-sat/leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
+| [0940-distinct-subsequences-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0940-distinct-subsequences-ii) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/m-s-sat/leetcode-solutions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1463-cherry-pickup-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/1463-cherry-pickup-ii) |
 | [1563-stone-game-v](https://github.com/m-s-sat/leetcode-solutions/tree/master/1563-stone-game-v) |
@@ -295,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/m-s-sat/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0721-accounts-merge](https://github.com/m-s-sat/leetcode-solutions/tree/master/0721-accounts-merge) |
+| [0940-distinct-subsequences-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0940-distinct-subsequences-ii) |
 | [1927-sum-game](https://github.com/m-s-sat/leetcode-solutions/tree/master/1927-sum-game) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/m-s-sat/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/m-s-sat/leetcode-solutions/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
