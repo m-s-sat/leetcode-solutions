@@ -4,20 +4,24 @@ public:
         stack<int> st;
         int n = s.length();
         string ans = "";
+        int pair[n];
         for(int i=0;i<n;i++){
-            if(s[i]=='(') st.push(ans.size());
+            if(s[i]=='(') st.push(i);
             else if(s[i]==')'){
-                int left = st.top();
-                int right = ans.size()-1;
-                while(left<=right){
-                    swap(ans[left],ans[right]);
-                    left++, right--;
-                }
+                int j = st.top();
                 st.pop();
+                pair[i]=j;
+                pair[j]=i;
             }
-            else{
-                ans.push_back(s[i]);
+        }
+        int i = 0, dir = 1;
+        while(i<n) {
+            if(s[i]=='('||s[i]==')'){
+                i = pair[i];
+                dir = -dir;
             }
+            else ans.push_back(s[i]);
+            i += dir;
         }
         return ans;
     }
