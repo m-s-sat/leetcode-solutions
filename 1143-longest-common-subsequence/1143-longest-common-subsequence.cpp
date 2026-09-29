@@ -8,7 +8,6 @@ private:
     }
     int f_tabulation(string& text1, string& text2){
         int n = text1.length(), m = text2.length();
-        // int dp[n+1][m+1];
         int prev[m+1],cur[m+1];
         for(int i=0;i<=m;i++){
             prev[i]=0;
