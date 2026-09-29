@@ -6,10 +6,25 @@ private:
         if(text1[ind1]==text2[ind2]) return dp[ind1][ind2]=1+f(text1,text2,ind1-1,ind2-1,dp);
         return dp[ind1][ind2]= max(f(text1,text2,ind1-1,ind2,dp),f(text1,text2,ind1,ind2-1,dp));
     }
+    int f_tabulation(string& text1, string& text2){
+        int n = text1.length(), m = text2.length();
+        int dp[n+1][m+1];
+        for(int i=0;i<=n;i++){
+            for(int j=0;j<=m;j++) dp[i][j]=0;
+        }
+        for(int ind1=1;ind1<=n;ind1++){
+            for(int ind2=1;ind2<=m;ind2++){
+                if(text1[ind1-1]==text2[ind2-1]) dp[ind1][ind2] = 1+dp[ind1-1][ind2-1];
+                else dp[ind1][ind2]=max(dp[ind1-1][ind2],dp[ind1][ind2-1]);
+            }
+        }
+        return dp[n][m];
+    }
 public:
     int longestCommonSubsequence(string text1, string text2) {
-        int n = text1.length(), m = text2.length();
-        vector<vector<int>> dp(n,vector<int>(m,-1));
-        return f(text1,text2,n-1,m-1,dp);
+        // int n = text1.length(), m = text2.length();
+        // vector<vector<int>> dp(n,vector<int>(m,-1));
+        // return f(text1,text2,n-1,m-1,dp);
+        return f_tabulation(text1,text2);
     }
 };
