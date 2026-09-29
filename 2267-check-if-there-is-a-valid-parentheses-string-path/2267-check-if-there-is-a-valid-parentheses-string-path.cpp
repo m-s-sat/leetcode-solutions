@@ -13,7 +13,12 @@ private:
     }
     bool f_tabulation(vector<vector<char>>& grid){
         int n = grid.size(), m=grid[0].size();
-        vector<vector<vector<bool>>> dp(n,vector<vector<bool>>(m,vector<bool>(n+m+1)));
+        int dp[n][m][n+m+1];
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                for(int bal=0;bal<=n+m;bal++) dp[i][j][bal]=false;
+            }
+        }
         if(grid[0][0]==')' || grid[n-1][m-1]=='(') return false;
         if(grid[0][0]=='(') dp[0][0][1]=true;
         for(int i=0;i<n;i++){
