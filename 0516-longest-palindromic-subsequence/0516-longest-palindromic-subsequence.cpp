@@ -8,17 +8,19 @@ private:
     }
     int f_tabulation(string& s1, string& s2){
         int n = s1.size();
-        int dp[n+1][n+1];
+        int prev[n+1],cur[n+1];
         for(int i=0;i<=n;i++){
-            for(int j=0;j<=n;j++) dp[i][j]=0;
+            prev[i]=0;
+            cur[i]=0;
         }
         for(int ind1=1;ind1<=n;ind1++){
             for(int ind2=1;ind2<=n;ind2++){
-                if(s1[ind1-1]==s2[ind2-1]) dp[ind1][ind2]=1+dp[ind1-1][ind2-1];
-                else dp[ind1][ind2]=max(dp[ind1-1][ind2],dp[ind1][ind2-1]);
+                if(s1[ind1-1]==s2[ind2-1]) cur[ind2]=1+prev[ind2-1];
+                else cur[ind2]=max(prev[ind2],cur[ind2-1]);
             }
+            for(int i=0;i<=n;i++) prev[i]=cur[i];
         }
-        return dp[n][n];
+        return prev[n];
     }
 public:
     int longestPalindromeSubseq(string s) {
