@@ -9,16 +9,17 @@ private:
     }
     int f_tabulation(string& word1, string& word2){
         int n = word1.size(), m = word2.size();
-        vector<vector<int>> dp(n+1,vector<int>(m+1,0));
-        for(int i=0;i<=m;i++) dp[0][i]=i;
-        for(int i=0;i<=n;i++) dp[i][0]=i;
+        vector<int> prev(m+1,0), cur(m+1,0);
+        for(int i=0;i<=m;i++) prev[i]=i;
         for(int i=1;i<=n;i++){
+            cur[0]=i;
             for(int j=1;j<=m;j++){
-                if(word1[i-1]==word2[j-1]) dp[i][j]=dp[i-1][j-1];
-                else dp[i][j]=min(1+dp[i-1][j],min(1+dp[i-1][j-1],1+dp[i][j-1]));
+                if(word1[i-1]==word2[j-1]) cur[j]=prev[j-1];
+                else cur[j]=1+min(prev[j],min(prev[j-1],cur[j-1]));
             }
+            prev=cur;
         }
-        return dp[n][m];
+        return prev[m];
     }
 public:
     int minDistance(string word1, string word2) {
