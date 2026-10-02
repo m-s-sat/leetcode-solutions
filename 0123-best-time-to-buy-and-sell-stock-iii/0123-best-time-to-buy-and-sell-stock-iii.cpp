@@ -40,12 +40,28 @@ private:
         }
         return cur[1][2];
     }
+    int variable_optimisation(vector<int>& prices){
+        int n = prices.size();
+        vector<int> curBuy(3,0), curNotBuy(3,0), aheadBuy(3,0), aheadNotBuy(3,0);
+        for(int ind=n-1;ind>=0;ind--){
+            for(int buy=0;buy<=1;buy++){
+                for(int cap=1;cap<=2;cap++){
+                    curBuy[cap] = max(-prices[ind]+aheadNotBuy[cap], aheadBuy[cap]);
+                    curNotBuy[cap] = max(prices[ind]+aheadBuy[cap-1], aheadNotBuy[cap]);
+                }
+            }
+            aheadBuy = curBuy;
+            aheadNotBuy = curNotBuy;
+        }
+        return curBuy[2];
+    }
 public:
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
         // vector<vector<vector<int>>> dp(n+1,vector<vector<int>>(2,vector<int>(3,-1)));
         // return f(prices,1,0,n,2,dp);
         // return f_tabulation(prices);
-        return space_optimisation(prices);
+        // return space_optimisation(prices);
+        return variable_optimisation(prices);
     }
 };
