@@ -36,10 +36,23 @@ private:
         }
         return prev[1];
     }
+    int variable_optimisation(vector<int>& prices){
+        int n = prices.size();
+        int curBuy, curNotBuy, aheadBuy, aheadNotBuy;
+        aheadNotBuy = aheadBuy = 0;
+        for(int ind=n-1;ind>=0;ind--){
+            curBuy = max(-prices[ind]+aheadNotBuy,aheadBuy);
+            curNotBuy = max(prices[ind]+aheadBuy,aheadNotBuy);
+            aheadNotBuy=curNotBuy;
+            aheadBuy=curBuy;
+        }
+        return aheadBuy;
+    }
 public:
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
-        return space_optimisation(prices);
+        // return space_optimisation(prices);
         // return f_tabulation(prices);
+        return variable_optimisation(prices);
     }
 };
