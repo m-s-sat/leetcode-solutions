@@ -21,9 +21,25 @@ private:
         }
         return dp[0][1];
     }
+    int space_optimisation(vector<int>& prices){
+        int n = prices.size();
+        int prev[2], cur[2];
+        for(int ind=n-1;ind>=0;ind--){
+            for(int buy=0;buy<=1;buy++){
+                int profit = 0;
+                if(buy) profit = max(-prices[ind]+prev[0],prev[1]);
+                else profit = max(prices[ind]+prev[1],prev[0]);
+                cur[buy] = profit;
+            }
+            prev[0]=cur[0];
+            prev[1]=cur[1];
+        }
+        return prev[1];
+    }
 public:
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
-        return f_tabulation(prices);
+        return space_optimisation(prices);
+        // return f_tabulation(prices);
     }
 };
