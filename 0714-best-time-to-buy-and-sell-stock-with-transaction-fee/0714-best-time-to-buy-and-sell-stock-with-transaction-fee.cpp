@@ -17,11 +17,24 @@ private:
         }
         return dp[0][1];
     }
+    int space_optimisation(vector<int>& prices, int fee){
+        int n = prices.size();
+        vector<int> cur(2,0), ahead(2,0);
+        for(int ind=n-1;ind>=0;ind--){
+            for(int buy=0;buy<=1;buy++){
+                if(buy) cur[buy]=max(-prices[ind]-fee+ahead[0],ahead[1]);
+                else cur[buy]=max(prices[ind]+ahead[1],ahead[0]);
+            }
+            ahead=cur;
+        }
+        return cur[1];
+    }
 public:
     int maxProfit(vector<int>& prices, int fee) {
         int n = prices.size();
         // vector<vector<int>> dp(n+1,vector<int>(2,-1));
         // return f(prices,fee,n,0,1,dp);
-        return f_tabulation(prices,fee);
+        // return f_tabulation(prices,fee);
+        return space_optimisation(prices,fee);
     }
 };
