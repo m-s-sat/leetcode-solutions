@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/m-s-sat/leetcode-solutions/tree/master/0032-longest-valid-parentheses) |
 | [0094-binary-tree-inorder-traversal](https://github.com/m-s-sat/leetcode-solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/m-s-sat/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
+| [0678-valid-parenthesis-string](https://github.com/m-s-sat/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [1096-brace-expansion-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/m-s-sat/leetcode-solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/m-s-sat/leetcode-solutions/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/m-s-sat/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/m-s-sat/leetcode-solutions/tree/master/0583-delete-operation-for-two-strings) |
+| [0678-valid-parenthesis-string](https://github.com/m-s-sat/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/m-s-sat/leetcode-solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/m-s-sat/leetcode-solutions/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0931-minimum-falling-path-sum](https://github.com/m-s-sat/leetcode-solutions/tree/master/0931-minimum-falling-path-sum) |
@@ -378,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0516-longest-palindromic-subsequence](https://github.com/m-s-sat/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/m-s-sat/leetcode-solutions/tree/master/0583-delete-operation-for-two-strings) |
+| [0678-valid-parenthesis-string](https://github.com/m-s-sat/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/m-s-sat/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0839-similar-string-groups](https://github.com/m-s-sat/leetcode-solutions/tree/master/0839-similar-string-groups) |
 | [0940-distinct-subsequences-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0940-distinct-subsequences-ii) |
@@ -507,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/m-s-sat/leetcode-solutions/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0678-valid-parenthesis-string](https://github.com/m-s-sat/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/m-s-sat/leetcode-solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0765-couples-holding-hands](https://github.com/m-s-sat/leetcode-solutions/tree/master/0765-couples-holding-hands) |
 | [1386-cinema-seat-allocation](https://github.com/m-s-sat/leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
@@ -647,6 +651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/m-s-sat/leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/m-s-sat/leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/m-s-sat/leetcode-solutions/tree/master/0032-longest-valid-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/m-s-sat/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/m-s-sat/leetcode-solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/m-s-sat/leetcode-solutions/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/m-s-sat/leetcode-solutions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
