@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/m-s-sat/leetcode-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/m-s-sat/leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0322-coin-change](https://github.com/m-s-sat/leetcode-solutions/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/m-s-sat/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/m-s-sat/leetcode-solutions/tree/master/0547-number-of-provinces) |
@@ -380,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/m-s-sat/leetcode-solutions/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/m-s-sat/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/m-s-sat/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/m-s-sat/leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0516-longest-palindromic-subsequence](https://github.com/m-s-sat/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/m-s-sat/leetcode-solutions/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/m-s-sat/leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
@@ -626,6 +628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/m-s-sat/leetcode-solutions/tree/master/0022-generate-parentheses) |
+| [0301-remove-invalid-parentheses](https://github.com/m-s-sat/leetcode-solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/m-s-sat/leetcode-solutions/tree/master/0494-target-sum) |
 | [1096-brace-expansion-ii](https://github.com/m-s-sat/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 ## Database
