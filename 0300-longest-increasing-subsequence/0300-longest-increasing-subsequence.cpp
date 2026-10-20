@@ -48,6 +48,23 @@ private:
         }
         return maxi;
     }
+    int time_complexity_optimisation_with_space_optimisation(vector<int>& nums){
+        int n = nums.size();
+        vector<int> temp;
+        int len = 1;
+        temp.push_back(nums[0]);
+        for(int i=1;i<n;i++){
+            if(nums[i]>temp.back()){
+                temp.push_back(nums[i]);
+                len++;
+            }
+            else{
+                int ind = lower_bound(temp.begin(),temp.end(),nums[i])-temp.begin();
+                temp[ind]=nums[i];
+            }
+        }
+        return len;
+    }
 public:
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
@@ -55,6 +72,7 @@ public:
         // return f(nums,n,0,dp);
         // return f_tabulation(nums);
         // return space_optimisation(nums);
-        return further_space_optimisation(nums);
+        // return further_space_optimisation(nums);
+        return time_complexity_optimisation_with_space_optimisation(nums);
     }
 };
