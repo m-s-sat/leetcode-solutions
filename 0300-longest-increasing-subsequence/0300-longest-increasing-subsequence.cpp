@@ -36,12 +36,25 @@ private:
         }
         return cur[0];
     }
+    int further_space_optimisation(vector<int>& nums){
+        int n = nums.size();
+        vector<int> dp(n,1);
+        int maxi = 1;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<i;j++){
+                if(nums[j]<nums[i]) dp[i]=max(dp[i],1+dp[j]);
+            }
+            maxi = max(dp[i],maxi);
+        }
+        return maxi;
+    }
 public:
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
         // vector<vector<int>> dp(n+1, vector<int>(n+1,-1));
         // return f(nums,n,0,dp);
         // return f_tabulation(nums);
-        return space_optimisation(nums);
+        // return space_optimisation(nums);
+        return further_space_optimisation(nums);
     }
 };
